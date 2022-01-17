@@ -195,3 +195,8 @@ Dart 简介
 * 延迟引入(懒加载)
 * * 使用deferred as 关键字来标识需要加载的库。
 * * 调用loadLibrary，在使用时加载。
+
+* part 与part of 组装库
+* * part of 分库。 part of ClassName(主库)
+* * part ClassName(分库) 引入分库，组合成主库。
+* * 使用的时候，import主就可以。
